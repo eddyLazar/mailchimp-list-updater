@@ -1,0 +1,20 @@
+{
+  "name": "mailchimp-list-updater",
+  "version": "0.0.1",
+  "description": "scheduler for updateing mailcjimp lists",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mailchimp"
+  ],
+  "author": "eddy.lazar@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "mailchimp-v3": "^1.0.1",
+    "ramda": "^0.21.0",
+    "request-promise": "^3.0.0",
+    "rxjs": "^5.0.0-beta.8"
+  }
+}
